@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:dbo="http://dbpedia.org/ontology/"
+   xmlns:ex="http://example.org/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Batman_Begins">
+    <ex:hasTheme rdf:resource="http://dbpedia.org/resource/Vigilantism"/>
+    <rdfs:label xml:lang="en">Batman Begins</rdfs:label>
+    <rdfs:label xml:lang="de">Batman beginnt</rdfs:label>
+    <dbo:starring rdf:resource="http://dbpedia.org/resource/Christian_Bale"/>
+    <dbo:starring rdf:resource="http://dbpedia.org/resource/Michael_Caine"/>
+    <dbo:producer rdf:resource="http://dbpedia.org/resource/Emma_Thomas"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbo:director rdf:resource="http://dbpedia.org/resource/Christopher_Nolan"/>
+    <dbo:sequel rdf:resource="http://dbpedia.org/resource/The_Dark_Knight"/>
+    <ex:playsIn rdf:resource="http://dbpedia.org/resource/Gotham_City"/>
+    <dbo:runtime rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">140</dbo:runtime>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/The_Dark_Knight">
+    <dbo:director rdf:resource="http://dbpedia.org/resource/Christopher_Nolan"/>
+    <ex:hasTheme rdf:resource="http://dbpedia.org/resource/Vigilantism"/>
+    <ex:playsIn rdf:resource="http://dbpedia.org/resource/Gotham_City"/>
+    <dbo:starring rdf:resource="http://dbpedia.org/resource/Heath_Ledger"/>
+    <dbo:starring rdf:resource="http://dbpedia.org/resource/Christian_Bale"/>
+    <ex:cast rdf:nodeID="N673cdf0d580a48ee96ef3820f957ed09"/>
+    <ex:receptionSource rdf:resource="http://dbpedia.org/resource/Rotten_Tomatoes"/>
+    <rdfs:label xml:lang="de">The Dark Knight</rdfs:label>
+    <rdfs:label xml:lang="en">The Dark Knight</rdfs:label>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbo:genre rdf:resource="http://dbpedia.org/resource/Crime_film"/>
+    <dbo:runtime rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">152</dbo:runtime>
+    <ex:receptionScore rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">94</ex:receptionScore>
+    <dbo:producer rdf:resource="http://dbpedia.org/resource/Emma_Thomas"/>
+    <ex:releaseDateUSA rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-07-18</ex:releaseDateUSA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Sam_Raimi">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Director"/>
+    <dbo:awards rdf:resource="http://dbpedia.org/resource/Saturn_Award"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf20b01a34dd4403e973da245e60072e0">
+    <ex:source rdf:resource="http://dbpedia.org/resource/The_Village_Voice"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    <rdf:predicate rdf:resource="http://example.org/performance"/>
+    <ex:comment>The performance would have made Ledger a legend even if he had lived.</ex:comment>
+    <rdf:subject rdf:resource="http://dbpedia.org/resource/Heath_Ledger"/>
+    <rdf:object rdf:resource="http://dbpedia.org/resource/Legendary_Performance"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Spider-Man_2">
+    <ex:playsIn rdf:resource="http://dbpedia.org/resource/New_York_City"/>
+    <dbo:sequel rdf:resource="http://dbpedia.org/resource/Spider-Man_3"/>
+    <dbo:producer rdf:resource="http://dbpedia.org/resource/Laura_Ziskin"/>
+    <dbo:starring rdf:resource="http://dbpedia.org/resource/Tobey_Maguire"/>
+    <dbo:starring rdf:resource="http://dbpedia.org/resource/Kirsten_Dunst"/>
+    <ex:hasTheme rdf:resource="http://dbpedia.org/resource/Heroism"/>
+    <rdfs:label xml:lang="en">Spider-Man 2</rdfs:label>
+    <rdfs:label xml:lang="de">Spider-Man 2</rdfs:label>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbo:runtime rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">127</dbo:runtime>
+    <dbo:director rdf:resource="http://dbpedia.org/resource/Sam_Raimi"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Interstellar">
+    <ex:playsIn rdf:resource="http://dbpedia.org/resource/Outer_Space"/>
+    <dbo:starring rdf:resource="http://dbpedia.org/resource/Matthew_McConaughey"/>
+    <dbo:starring rdf:resource="http://dbpedia.org/resource/Anne_Hathaway"/>
+    <ex:hasTheme rdf:resource="http://dbpedia.org/resource/Survival"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Film"/>
+    <dbo:producer rdf:resource="http://dbpedia.org/resource/Emma_Thomas"/>
+    <dbo:runtime rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">169</dbo:runtime>
+    <dbo:director rdf:resource="http://dbpedia.org/resource/Christopher_Nolan"/>
+    <rdfs:label xml:lang="en">Interstellar</rdfs:label>
+    <rdfs:label xml:lang="de">Interstellar</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Christopher_Nolan">
+    <dbo:awards rdf:resource="http://dbpedia.org/resource/BAFTA_Award_for_Best_Direction"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Director"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N673cdf0d580a48ee96ef3820f957ed09">
+    <rdf:_2 rdf:resource="http://dbpedia.org/resource/Heath_Ledger"/>
+    <rdf:_1 rdf:resource="http://dbpedia.org/resource/Christian_Bale"/>
+    <rdf:_3 rdf:resource="http://dbpedia.org/resource/Michael_Caine"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Emma_Thomas">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Producer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Christian_Bale">
+    <ex:portrays rdf:resource="http://dbpedia.org/resource/Bruce_Wayne"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Actor"/>
+    <dbo:awards rdf:resource="http://dbpedia.org/resource/Academy_Award_for_Best_Actor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Tobey_Maguire">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Actor"/>
+    <ex:portrays rdf:resource="http://dbpedia.org/resource/Peter_Parker"/>
+    <dbo:awards rdf:resource="http://dbpedia.org/resource/Saturn_Award"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Michael_Caine">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Actor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Kirsten_Dunst">
+    <ex:portrays rdf:resource="http://dbpedia.org/resource/Mary_Jane_Watson"/>
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Actor"/>
+    <dbo:awards rdf:resource="http://dbpedia.org/resource/MTV_Movie_Award"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Die_Hard">
+    <rdfs:label xml:lang="en">Die Hard</rdfs:label>
+    <rdfs:label xml:lang="de">Stirb langsam</rdfs:label>
+    <rdfs:label xml:lang="ua">Міцний горішок</rdfs:label>
+    <ex:releaseDateUSA rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1988-07-22</ex:releaseDateUSA>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Matthew_McConaughey">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Actor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Laura_Ziskin">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Producer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/Anne_Hathaway">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Actor"/>
+  </rdf:Description>
+</rdf:RDF>

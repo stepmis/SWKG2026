@@ -1,0 +1,69 @@
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix dbr: <http://dbpedia.org/resource/> .
+@prefix ex: <http://example.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+dbr:Batman_Begins a dbo:Film ;
+    rdfs:label "Batman beginnt"@de,
+        "Batman Begins"@en ;
+    dbo:director dbr:Christopher_Nolan ;
+    dbo:producer dbr:Emma_Thomas ;
+    dbo:runtime 140 ;
+    dbo:sequel dbr:The_Dark_Knight ;
+    dbo:starring dbr:Christian_Bale,
+        dbr:Michael_Caine ;
+    ex:hasTheme dbr:Vigilantism ;
+    ex:playsIn dbr:Gotham_City .
+
+dbr:Interstellar a dbo:Film ;
+    rdfs:label "Interstellar"@de,
+        "Interstellar"@en ;
+    dbo:director dbr:Christopher_Nolan ;
+    dbo:producer dbr:Emma_Thomas ;
+    dbo:runtime 169 ;
+    dbo:starring dbr:Anne_Hathaway,
+        dbr:Matthew_McConaughey ;
+    ex:hasTheme dbr:Survival ;
+    ex:playsIn dbr:Outer_Space .
+
+dbr:Spider-Man_2 a dbo:Film ;
+    rdfs:label "Spider-Man 2"@de,
+        "Spider-Man 2"@en ;
+    dbo:director dbr:Sam_Raimi ;
+    dbo:producer dbr:Laura_Ziskin ;
+    dbo:runtime 127 ;
+    dbo:sequel dbr:Spider-Man_3 ;
+    dbo:starring dbr:Kirsten_Dunst,
+        dbr:Tobey_Maguire ;
+    ex:hasTheme dbr:Heroism ;
+    ex:playsIn dbr:New_York_City .
+
+dbr:Anne_Hathaway a dbo:Actor .
+
+dbr:Christian_Bale a dbo:Actor ;
+    dbo:awards dbr:Academy_Award_for_Best_Actor ;
+    ex:portrays dbr:Bruce_Wayne .
+
+dbr:Kirsten_Dunst a dbo:Actor ;
+    dbo:awards dbr:MTV_Movie_Award ;
+    ex:portrays dbr:Mary_Jane_Watson .
+
+dbr:Laura_Ziskin a dbo:Producer .
+
+dbr:Matthew_McConaughey a dbo:Actor .
+
+dbr:Michael_Caine a dbo:Actor .
+
+dbr:Sam_Raimi a dbo:Director ;
+    dbo:awards dbr:Saturn_Award .
+
+dbr:Tobey_Maguire a dbo:Actor ;
+    dbo:awards dbr:Saturn_Award ;
+    ex:portrays dbr:Peter_Parker .
+
+dbr:Christopher_Nolan a dbo:Director ;
+    dbo:awards dbr:BAFTA_Award_for_Best_Direction .
+
+dbr:Emma_Thomas a dbo:Producer .
+
