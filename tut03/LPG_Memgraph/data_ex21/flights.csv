@@ -1,0 +1,21 @@
+flightNumber,origin_airport,destination_airport,Airline,departureTime,arrivalTime
+LH001,STR,FRA,Lufthansa,720,805
+BA002,STR,FRA,British Airways,740,825
+BA003,STR,FRA,British Airways,850,1100
+LH004,STR,FRA,Lufthansa,1055,1140
+LH005,STR,DUS,Lufthansa,1115,1205
+DB006,STR,BER,Deutsche BA,1400,5000
+LH007,FRA,DUS,Lufthansa,930,1015
+LH008,FRA,JFK,Lufthansa,1000,1220
+LH009,FRA,BER,Lufthansa,1030,1135
+BA010,FRA,JFK,British Airways,1130,1340
+LH011,DUS,JFK,Lufthansa,1310,1220
+LH012,MUC,BER,Lufthansa,630,745
+LH013,MUC,BER,Lufthansa,1230,1345
+LH014,MUC,BER,Lufthansa,2030,2145
+AF015,MUC,CDG,Air France,1420,1600
+LH016,MUC,LHR,Lufthansa,1800,1900
+BA017,MUC,LHR,British Airways,1730,1830
+LH018,MUC,HAM,Lufthansa,1430,1555
+LH019,HAM,BER,Lufthansa,1630,1730
+BA020,LHR,JFK,British Airways,1900,2100
